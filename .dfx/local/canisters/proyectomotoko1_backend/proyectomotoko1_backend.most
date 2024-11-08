@@ -1,0 +1,5 @@
+// Version: 1.0.0
+type User = {edad : Nat; nombre : Text};
+actor {
+  stable var user : [User]
+};

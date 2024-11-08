@@ -1,0 +1,9 @@
+type User = 
+ record {
+   edad: nat;
+   nombre: text;
+ };
+service : {
+  quienes: () -> (principal) query;
+  verusuarios: () -> (vec User) query;
+}
